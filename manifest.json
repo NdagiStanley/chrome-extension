@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Christian & Tech",
+    "description": "A launcher for some relevant sites",
+    "version": "1.0.0",
+    "icons":{
+        "128":"logo.png"
+    },
+    "browser_action":{
+        "default_icon": "logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions":["activeTab"]
+}

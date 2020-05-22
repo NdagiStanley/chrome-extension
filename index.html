@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Word</title>
+
+    <style>
+        body{
+            font-family:cursive;
+            min-height: 10px;
+            padding: 0;
+            width: 250px;
+        }
+        .card{
+            padding: 2px 2px;
+        }
+        .card-header{
+            text-align: center;
+        }
+        .card-body{
+            padding: 10px 20px;
+            justify-content: center;
+            display: flex;
+        }
+        .icon{
+            width: 40px;
+            opacity: 1;
+            transition: opacity 0.2s ease-in;
+        }
+        .icon:hover{
+            opacity: 3;
+            transition: opacity 0.7s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h2>Christian & Tech</h2>
+            <hr>
+        </div>
+        <div class="card-body">
+            <div class="icon">
+                <a href="http://bible.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://www.bible.com//assets/icons/bible/121/en-647fba4b05a37a47cb180849717279b9.png" height="40" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="icon">
+                <a href="http://bibleproject.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://s3-us-west-2.amazonaws.com/tbp-web/media/favicons/2020/favicon-32x32.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
